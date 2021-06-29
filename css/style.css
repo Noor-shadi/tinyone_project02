@@ -1,0 +1,485 @@
+/* ===================common css start================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+}
+
+
+
+ .title{
+    text-align: center;
+}
+
+
+ .title h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+
+ .title p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+/* ===================common css end================== */
+
+/* ===================header css start================== */
+
+header{
+    background: #fcdb00;
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    z-index: 9999;
+}
+
+header .logo {
+    width: 20%;
+}
+
+header .nav-part{
+    width: 80%;
+}
+
+header .nav-part ul{
+    text-align: right;
+}
+
+header .nav-part ul li{
+    display: inline-block;
+    margin-left: 75px;
+}
+
+header .nav-part ul li a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    line-height: 43px;
+}
+
+/* ===================header css end================== */
+
+/* ===================Banner css start================== */
+
+#banner-part {
+    background: #fcdb00;
+    margin-bottom: 100px;
+}
+
+#banner-part .banner-slider {
+	width: 100%;
+	padding-top: 110px;
+}
+
+#banner-part .banner-slider .item .left{
+    width: 50%;
+    margin-top: 35px;
+}
+
+#banner-part .banner-slider .item .left h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    word-spacing: 2px;
+    margin-top: 132px;
+}
+
+#banner-part .banner-slider .item .left h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #313841;
+    width: 290px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+#banner-part .banner-slider .item .left p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #555555;
+    width: 294px;
+    margin-bottom: 41px;
+}
+
+#banner-part .banner-slider .item .left a i{
+    font-size: 50px;
+    color: #010101;
+    margin-left: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#banner-part .banner-slider .item .left a .apple:hover{
+    color: #f9f6ef;
+    transition:.5s ;
+    -webkit-transition:.5s ;
+    -moz-transition:.5s ;
+    -ms-transition:.5s ;
+    -o-transition:.5s ;
+}
+
+#banner-part .banner-slider .item .left a .store:hover{
+    color: #ff3333;
+    transition:.5s ;
+    -webkit-transition:.5s ;
+    -moz-transition:.5s ;
+    -ms-transition:.5s ;
+    -o-transition:.5s ;
+}
+
+#banner-part .banner-slider .item .left a .widows:hover{
+    color: #00a4ef ;
+    transition:.5s ;
+    -webkit-transition:.5s ;
+    -moz-transition:.5s ;
+    -ms-transition:.5s ;
+    -o-transition:.5s ;
+}
+
+
+
+#banner-part .banner-slider .item .right{
+    width: 50%;
+    text-align: right;
+    margin-top: 67px;
+    margin-bottom: 107px;
+}
+
+#banner-part .banner-slider .item .right img{
+    margin-left: 135px;
+}
+
+
+#banner-part .slick-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+#banner-part .slick-dots li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#banner-part .slick-dots li button {
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border: 0px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgba(255, 255, 255, 0.418);
+}
+
+#banner-part .slick-dots .slick-active button {
+    background: #fff;
+}
+
+/* ===================Banner css end================== */
+
+
+/* ===================features css start================== */
+
+#features-part{
+    margin-bottom: 100px;
+}
+
+#features-part .title{
+    text-align: center;
+}
+
+
+#features-part .title h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+
+#features-part .title p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#features-part .main{
+    justify-content: space-between;
+}
+
+#features-part .main .item{
+    width: 30%;
+    margin-top: 50px;
+}
+
+#features-part .main .item {
+	position: relative;
+	padding: 20px;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	padding-left: 34px;
+}
+
+#features-part .main .item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    cursor: pointer;
+}
+
+#features-part .main .item .details{
+    position: relative;
+    padding-left: 41px;
+}
+
+#features-part .main .item .details h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+#features-part .main .item .details p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    margin-top: 15px;
+}
+
+
+#features-part .main .item i{
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+#features-part .main .item .psd{
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+
+#features-part .main .item .code{
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+/* ===================features css end================== */
+
+/* ===================Buton css start================== */
+
+#button-part{
+    background: #000;
+}
+
+#button-part .title h1{
+    color: #fcdb00;
+    padding-top: 95px;
+}
+
+#button-part .title p{
+    color: #898989;
+}
+
+#button-part .form{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+#button-part input {
+	border: 1px solid #000;
+	width: 73%;
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+    margin-left: 71px;
+}
+
+#contact-part textarea::placeholder {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+#button-part .submit {
+    text-align: center;
+
+}
+
+#button-part .submit button {
+    background: #fcdb00;
+    border: 0;
+    padding: 10px 20px;
+    color: #010101;
+    text-transform: uppercase;
+    margin-top: 1px;
+    margin-left: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#button-part .icon{
+    text-align: center;
+}
+
+
+#button-part .icon i{
+    font-size: 70px;
+    color: #fcdb00;
+    margin-right: 25px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#button-part .icon .facebook:hover{
+    color: #007aff ;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#button-part .icon .twiter:hover{
+    color: #00b9ff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#button-part .icon .google:hover{
+    color: #ff4600;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#button-part .icon .pin:hover{
+    color: #a000ff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#button-part .footer-part{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+#button-part .footer-part .main{
+    justify-content: space-between;
+}
+
+#button-part .footer-part .main .item{
+    width: 19%;
+}
+
+#button-part .footer-part .main .item ul li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+#button-part .footer-part .main .examples ul {
+    margin-left: 116px;
+}
+
+#button-part .footer-part .main .contact ul {
+    margin-left: 116px;
+}
+
+#button-part .footer-part .main .download ul {
+    margin-left: 105px;
+}
+
+#button-part .footer-part .main .media ul {
+    margin-left: 105px;
+}
+
+
+
+
+
+
+
+
+/* ===================Buton css end================== */
